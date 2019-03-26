@@ -1,5 +1,5 @@
 # Arihan Jalan
-arihan@uw.edu - 206-822-0347 - [linkedin.com/in/arihanj](https://www.linkedin.com/in/arihanjalan/)
+[Email](arihan@uw.edu) - 206-822-0347 - [LinkedIn](https://www.linkedin.com/in/arihanjalan/)
 
 Arihan is a Senior Informatics student with a concentration in Data Science. He's had coursework in machine learning, database management, and data visualization using tools like **_Python, RStudio, SQL, and Tableau_**. His ongoing capstone project has him aggregating and analyzing cybersecurity data for millions of IoT devices in WA. He's had past projects on building a NB classifier from scratch for mining and classifying text data, visualizing information about Bitcoin via an infographic, and tuning, assessing ML models on a variety of datasets.
 
@@ -19,7 +19,8 @@ Clean, analyze, model, visualize breast cancer, review, housing, email, and gove
 
  - **Hospital Recommender** (_RStudio, Shiny, Google Maps API_) <br/>
 [Link to App](https://arihan.shinyapps.io/hospital-search/) | [Link to GitHub](https://github.com/Info-370-Winter-2018/group-formation-for-projects-platypus) <br/>
-App takes user user location, reason for visit. Filters dataset to shows, plots hospitals on a map ranked in their ability to treat the given problem. It was developed using RStudio and made use of the the Google Maps and the RedLine13 APIs towards [Medicare](https://data.medicare.gov/) data.
+App takes user user location, reason for visit. Filters dataset to shows, plots hospitals on a map ranked in their ability to treat the given problem. It was developed using RStudio and made use of the the Google Maps and the RedLine13 APIs towards [Medicare](https://data.medicare.gov/) data. <br/>
+<img src="https://raw.githubusercontent.com/arihan-1560795/INFO430--AirBNB/master/6-%20Visualization/Reporting%20Dashboard%203.PNG" height="120">
 
 - **AirBNB Property Finder** (_Tableau, pSQL, AWS RDS_) <br/>
 [Link to Dashboard Screenshot](https://github.com/arihan-1560795/INFO430--AirBNB/blob/master/6-%20Visualization/Reporting%20Dashboard%203.PNG?raw=true) | [Link to GitHub](https://github.com/arihan-1560795/INFO430--AirBNB) <br/>
