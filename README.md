@@ -1,5 +1,5 @@
 # Arihan Jalan
-arihan@uw.edu - 206-822-0347 - linkedin.com/in/arihanj
+arihan@uw.edu - 206-822-0347 - [linkedin.com/in/arihanj](https://www.linkedin.com/in/arihanjalan/)
 
 Arihan is a Senior Informatics student with a concentration in Data Science. He's had coursework in machine learning, database management, and data visualization using tools like **_Python, RStudio, SQL, and Tableau_**. His ongoing capstone project has him aggregating and analyzing cybersecurity data for millions of IoT devices in WA. He's had past projects on building a NB classifier from scratch for mining and classifying text data, visualizing information about Bitcoin via an infographic, and tuning, assessing ML models on a variety of datasets.
 
