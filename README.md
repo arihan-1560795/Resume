@@ -16,10 +16,6 @@ Arihan is a Senior Informatics student with a concentration in Data Science. He'
 [Link to GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/WI19-371) <br/>
 Clean, analyze, model, visualize breast cancer, review, housing, email, and government assistance datasets. Implement, use preset, and evaluate machine learning models using metrics like accuracy, confusion matrixes, ROC curves, decision boundary plots, and more. 
 
-- **IoT Security Evaluation** (_Python_) <br/>
-[Link to GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/WI19-371) <br/>
-Clean, analyze, model, visualize breast cancer, review, housing, email, and government assistance datasets. Implement, use preset, and evaluate machine learning models using metrics like accuracy, confusion matrixes, ROC curves, decision boundary plots, and more. 
-
  - **Hospital Recommender** (_RStudio, Shiny, Google Maps API_) <br/>
 [Link to App](https://arihan.shinyapps.io/hospital-search/) | [Link to GitHub](https://github.com/Info-370-Winter-2018/group-formation-for-projects-platypus) <br/>
 App takes user user location, reason for visit. Filters dataset to shows, plots hospitals on a map ranked in their ability to treat the given problem. It was developed using RStudio and made use of the the Google Maps and the RedLine13 APIs towards [Medicare](https://data.medicare.gov/) data.
