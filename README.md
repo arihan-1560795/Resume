@@ -13,27 +13,34 @@ Arihan is a Senior Informatics student with a concentration in Data Science. He'
 
 ## Projects
 
-- **Python Data Modelling (ML)** (_Python_) <br/>
-[Link to GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/WI19-371) <br/>
+- **Python Data Modelling (ML)** ([GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/WI19-371)) <br/>
 Clean, analyze, model, visualize breast cancer, review, housing, email, and government assistance datasets. Implement, use preset, and evaluate machine learning models using metrics like accuracy, confusion matrixes, ROC curves, decision boundary plots, and more. 
 
- - **Hospital Recommender** (_RStudio, Shiny, Google Maps API_) <br/>
-[Link to App](https://arihan.shinyapps.io/hospital-search/) | [Link to GitHub](https://github.com/Info-370-Winter-2018/group-formation-for-projects-platypus) <br/>
-App takes user user location, reason for visit. Filters dataset to shows, plots hospitals on a map ranked in their ability to treat the given problem. It was developed using RStudio and made use of the the Google Maps and the RedLine13 APIs towards [Medicare](https://data.medicare.gov/) data. <br/>
+- **Hospital Recommender** ([App](https://arihan.shinyapps.io/hospital-search/) | [GitHub](https://github.com/Info-370-Winter-2018/group-formation-for-projects-platypus)) <br/>
+Technology used: (_RStudio, Shiny, Google Maps API_) <br/>
+- - App produces output on user defined location, distance, and reason for visit. 
+- - Ranks hospitals on their treatment effectivness and plots them on a map. 
+- - Queries Google Map’s API for geo-data, narrows zip-code using RedLine13's API. <br/>
 <img src="Project Screenshots/Hospital Finder.PNG" height="360">
 
-- **AirBNB Property Finder** (_Tableau, pSQL, AWS RDS_) <br/>
-[Link to Dashboard Screenshot](https://github.com/arihan-1560795/INFO430--AirBNB/blob/master/6-%20Visualization/Reporting%20Dashboard%203.PNG?raw=true) | [Link to GitHub](https://github.com/arihan-1560795/INFO430--AirBNB) <br/>
-Project lead on pSQL database development on Amazon's Relational Database Service. The tool provides insights into AirBNB data and helps people filter through it to find properties. The DB back end was built to be as efficient as possible; and the dashboard shows how various features are related.
-<img src="Project Screenshots/AirBNB Property.PNG" height="240">
+- **AirBNB Property Finder** ([GitHub](https://github.com/arihan-1560795/INFO430--AirBNB) | [App Screenshots](https://github.com/arihan-1560795/INFO430--AirBNB/blob/master/6-%20Visualization/Reporting%20Dashboard%203.PNG?raw=true)) <br/>
+Technology used: (_Tableau, pSQL, AWS RDS_)  <br/>
+- - Built a 3NF SQL server DB hosted on AWS RDS to store AirBNB housing data.
+- - Use Tableau to create interactive search and filtering tool over dataset and shows findings.
+- - DB used multiple tables, transactions, triggers.
+<img src="Project Screenshots/AirBNB Property.PNG" height="360">
 
-- **Transportation Data Pipeline** (_SQL, Excel, Shiny_) <br/>
-[Link to Screenshots](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/tree/master/Screenshots) | [Link to GitHub](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project) <br/>
-Data Pipeline for managing, storing, analyzing, and visualizing transportation data for bicycles. Involved importing data into created SQL tables and querying, visualizing them through RStudio.
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/1-Landing.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/2-%20Survey.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/3-Survey.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/5-Viz%20Static.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/6-Viz%20Dynamic.png" height="240">
+- **Transportation Data Pipeline** ([GitHub](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project) | [App Screenshots](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/tree/master/Screenshots)) <br/>
+Technology used: (_SQL, Excel, Shiny_) <br/>
+- - Data Pipeline for managing, storing, analyzing, and visualizing transportation data for bicycles. 
+- - Involved importing data into created SQL tables and querying, visualizing them through RStudio. <br/>
+<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/1-Landing.png" height="360"> <br/>
+<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/3-Survey.png" height="360"> <br/>
+<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/6-Viz%20Dynamic.png" height ="360"> <br/>
 
 
-- **Bitcoin Infographic** (_Adobe Illustrator, Tableau, Excel_) <br/>
-[Link to Screenshot](https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png) | [Link to raw files](https://github.com/arihan-1560795/Bitcoin-Infographic) <br/>
-Infographic about Bitcoin's lifecycle, facts, spatial distribution, and temporal variation. Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
+- **Bitcoin Infographic** ([GitHub](https://github.com/arihan-1560795/Bitcoin-Infographic) | [Infographic](https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png))<br/>
+Technology used: (_Adobe Illustrator, Tableau, Excel_) <br/>
+- - Infographic about Bitcoin's lifecycle, facts, spatial distribution, and temporal variation. 
+- - Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
 <img src="https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png" height="360">
