@@ -1,0 +1,385 @@
+date,city,state,injured,killed,lat,lng
+"December 31, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"December 31, 2016",Lenox (El Dorado),Georgia,2,2,31.27158,-83.46488
+"December 30, 2016",Mansfield,Ohio,5,0,40.75839,-82.515447
+"December 30, 2016",Wallingford,Connecticut,2,2,41.4570418,-72.8231551
+"December 28, 2016",Columbus,Georgia,4,1,32.4609764,-84.9877093
+"December 25, 2016",Ozark,Alabama,4,0,31.4584764,-85.6405864
+"December 25, 2016",Chicago,Illinois,4,3,41.8755546,-87.6244211
+"December 25, 2016",Mount Vernon,New York,5,1,40.9125992,-73.8370785
+"December 24, 2016",Madison,North Carolina,7,0,35.8482034,-82.6931062
+"December 24, 2016",Wilson,North Carolina,0,4,35.7212689,-77.9155394
+"December 23, 2016",Birmingham,Alabama,3,1,33.5206824,-86.8024325
+"December 23, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"December 17, 2016",Charlotte,North Carolina,4,0,35.2270869,-80.8431267
+"December 17, 2016",Chicago (Roseland),Illinois,1,4,41.6943623,-87.6179632
+"December 16, 2016",Chicago,Illinois,2,2,41.8755546,-87.6244211
+"December 16, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"December 12, 2016",Sacramento,California,3,1,38.5815719,-121.4943995
+"December 11, 2016",Orlando (Pine Hills),Florida,4,1,28.5861117,-81.4509043
+"December 11, 2016",Baltimore,Maryland,5,0,39.2908816,-76.6107589
+"December 11, 2016",Brooklyn,New York,4,0,40.6501038,-73.9495822
+"December 11, 2016",Rocky Mount,North Carolina,4,0,35.9423833,-77.7956948
+"December 9, 2016",Channelview,Texas,0,4,29.7760599,-95.1146532
+"December 9, 2016",Fresno,California,4,0,36.7394421,-119.7848306
+"December 5, 2016",Albuquerque,New Mexico,1,4,35.0841034,-106.650985
+"December 3, 2016",Los Angeles,California,6,0,34.054935,-118.2444759
+"December 2, 2016",Bloomfield,New Jersey,6,0,40.806767,-74.1854225
+"December 1, 2016",Clearlake Oaks,California,3,1,39.0174285,-122.6515203
+"November 30, 2016",Baltimore,Maryland,4,2,39.2908816,-76.6107589
+"November 28, 2016",Mission (Palmview),Texas,3,1,26.2370039,-98.3787347
+"November 28, 2016",Wilmington,California,4,0,33.780018,-118.262571
+"November 28, 2016",San Pedro,California,4,0,33.7358518,-118.2922933
+"November 27, 2016",New Orleans,Louisiana,9,1,29.9499323,-90.0701155
+"November 27, 2016",Kansas City,Missouri,7,0,39.0844687,-94.5630297
+"November 26, 2016",Chicago,Illinois,5,1,41.8755546,-87.6244211
+"November 25, 2016",New Orleans,Louisiana,4,0,29.9499323,-90.0701155
+"November 24, 2016",Louisville,Kentucky,5,2,38.2542376,-85.7594069
+"November 24, 2016",Albany,New York,3,1,42.6511674,-73.7549679
+"November 23, 2016",Olive Branch,Mississippi,4,0,34.9617605,-89.8295314
+"November 22, 2016",Clewiston,Florida,4,1,26.7542312,-80.9336752
+"November 18, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"November 17, 2016",Dyersburg,Tennessee,7,1,36.0345159,-89.385628
+"November 13, 2016",Jacksonville,Florida,2,3,30.3321838,-81.6556509
+"November 13, 2016",San Diego,California,2,3,32.7174209,-117.1627713
+"November 13, 2016",Orlando,Florida,4,0,28.5421175,-81.3790461
+"November 13, 2016",San Antonio,Texas,4,0,29.4246002,-98.4951404
+"November 12, 2016",Sacramento,California,5,1,38.5815719,-121.4943995
+"November 12, 2016",Kansas City,Missouri,3,1,39.0844687,-94.5630297
+"November 12, 2016",Bridgeport,Connecticut,5,0,41.1670412,-73.2048347
+"November 11, 2016",Houston,Texas,4,0,29.7589382,-95.3676973
+"November 10, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"November 9, 2016",Seattle,Washington,5,0,47.6038321,-122.3300623
+"November 9, 2016",Chicago,Illinois,3,1,41.8755546,-87.6244211
+"November 9, 2016",Memphis,Tennessee,4,0,35.1490215,-90.0516284
+"November 5, 2016",Fort Lauderdale (Lauderhill),Florida,3,1,26.1195775,-80.1697736
+"November 5, 2016",Myrtle Beach,South Carolina,5,0,33.6956461,-78.8900408
+"November 5, 2016",Oakland,California,8,0,37.8044557,-122.2713562
+"November 5, 2016",Chicago,Illinois,5,0,41.8755546,-87.6244211
+"November 5, 2016",San Antonio,Texas,4,0,29.4246002,-98.4951404
+"November 4, 2016",Philadelphia,Pennsylvania,4,0,39.9523993,-75.1635898
+"November 3, 2016",Chicago,Illinois,2,2,41.8755546,-87.6244211
+"November 3, 2016",Orange,New Jersey,2,2,40.7706562,-74.2326462
+"November 2, 2016",Little Rock,Arkansas,4,1,34.7464809,-92.2895947
+"November 1, 2016",Memphis,Tennessee,5,1,35.1490215,-90.0516284
+"October 31, 2016",Shreveport,Louisiana,4,0,32.5221828,-93.7651943
+"October 30, 2016",Toledo,Ohio,4,0,41.6786754,-83.5127282
+"October 30, 2016",Newburgh,New York,5,2,41.5034271,-74.0104178
+"October 30, 2016",New York (Manhattan),New York,4,0,40.7484273,-73.9856941
+"October 30, 2016",Capitol Heights,Maryland,3,3,38.8853963,-76.915944
+"October 30, 2016",San Antonio,Texas,5,0,29.4246002,-98.4951404
+"October 29, 2016",Dayton,Ohio,3,1,39.7589478,-84.1916068
+"October 29, 2016",Los Angeles,California,5,0,34.054935,-118.2444759
+"October 29, 2016",Riverside,California,4,0,33.9533546,-117.3961622
+"October 28, 2016",Miami Gardens,Florida,4,0,25.9420755,-80.2397527
+"October 28, 2016",Jackson,Mississippi,6,0,32.2990384,-90.184769
+"October 27, 2016",Jackson,Georgia,0,4,34.1282559,-83.5753385
+"October 25, 2016",Roanoke,Virginia,3,2,37.270973,-79.9414312
+"October 25, 2016",Dayton,Ohio,3,1,39.7589478,-84.1916068
+"October 23, 2016",Wellston,Oklahoma,5,1,35.6942278,-97.0633629
+"October 22, 2016",Oakland,California,7,0,37.8044557,-122.2713562
+"October 18, 2016",San Francisco,California,4,0,37.7792808,-122.4192362
+"October 17, 2016",Chicago (Englewood),Illinois,4,1,41.7790752,-87.6684426
+"October 15, 2016",Mobile,Alabama,5,0,30.6943566,-88.043054
+"October 15, 2016",Los Angeles,California,11,4,34.054935,-118.2444759
+"October 15, 2016",Rockford,Illinois,5,1,42.2713945,-89.0939659
+"October 14, 2016",Chicago,Illinois,6,1,41.8755546,-87.6244211
+"October 13, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"October 9, 2016",Grand Rapids,Michigan,8,1,42.9632405,-85.6678638
+"October 9, 2016",Sacramento,California,3,1,38.5815719,-121.4943995
+"October 8, 2016",Brooklyn,New York,4,0,40.6501038,-73.9495822
+"October 4, 2016",New Orleans,Louisiana,2,3,29.9499323,-90.0701155
+"October 3, 2016",Minneapolis,Minnesota,4,0,44.9772995,-93.2654691
+"October 2, 2016",San Antonio,Texas,4,1,29.4246002,-98.4951404
+"October 1, 2016",Pembroke Township,Illinois,0,4,41.06504,-87.59161
+"October 1, 2016",Fresno,California,4,0,36.7394421,-119.7848306
+"September 29, 2016",San Francisco,California,3,1,37.7792808,-122.4192362
+"September 26, 2016",Humble,Texas,4,0,29.9988312,-95.2621552
+"September 26, 2016",Houston,Texas,6,1,29.7589382,-95.3676973
+"September 26, 2016",Winston Salem (Winston-salem),North Carolina,4,0,36.1095817,-80.2114368
+"September 25, 2016",Champaign,Illinois,3,1,40.1164205,-88.2433828
+"September 24, 2016",Baltimore,Maryland,8,0,39.2908816,-76.6107589
+"September 23, 2016",Burlington,Washington,0,5,48.4686745,-122.3293924
+"September 18, 2016",Philadelphia,Pennsylvania,4,0,39.9523993,-75.1635898
+"September 18, 2016",Lynchburg,Virginia,3,1,37.40088,-79.1844923
+"September 18, 2016",Pittsburgh,Pennsylvania,4,0,40.4416941,-79.990086
+"September 17, 2016",Miami,Florida,6,0,25.7742658,-80.1936588
+"September 17, 2016",Indianapolis,Indiana,2,2,39.7683331,-86.1583501
+"September 17, 2016",Orlando,Florida,6,1,28.5421175,-81.3790461
+"September 17, 2016",Washington,District of Columbia,7,2,38.8949549,-77.0366455
+"September 16, 2016",Los Angeles (Hollywood),California,2,2,34.05223,-118.24368
+"September 16, 2016",Philadelphia,Pennsylvania,5,2,39.9523993,-75.1635898
+"September 14, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"September 13, 2016",Fort Wayne,Indiana,2,3,41.0799898,-85.1386014
+"September 11, 2016",New Orleans,Louisiana,5,1,29.9499323,-90.0701155
+"September 11, 2016",Kansas City,Missouri,6,0,39.0844687,-94.5630297
+"September 11, 2016",Fort Wayne,Indiana,1,3,41.0799898,-85.1386014
+"September 11, 2016",Saginaw,Michigan,5,0,43.4200387,-83.9490364
+"September 11, 2016",New Bern,North Carolina,5,0,35.1084931,-77.0441142
+"September 11, 2016",Jersey City,New Jersey,3,1,40.7281575,-74.0776416
+"September 10, 2016",Miami,Florida,3,1,25.7742658,-80.1936588
+"September 8, 2016",Del Valle,Texas,0,4,30.327985,-97.6191693
+"September 8, 2016",Hot Springs National Park (Hot Springs),Arkansas,4,1,34.5167562,-93.0529571
+"September 5, 2016",Reading,Pennsylvania,4,0,40.335345,-75.9279494
+"September 5, 2016",Chicago,Illinois,3,2,41.8755546,-87.6244211
+"September 4, 2016",Roanoke,Virginia,10,1,37.270973,-79.9414312
+"September 3, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"September 3, 2016",Wilmington,North Carolina,3,1,34.2257282,-77.9447106
+"August 30, 2016",Atlanta,Georgia,4,0,33.7490987,-84.3901848
+"August 30, 2016",Chicago (Englewood),Illinois,4,0,41.7790752,-87.6684426
+"August 29, 2016",Egg Harbor City,New Jersey,5,1,39.5287282,-74.6479363
+"August 29, 2016",Temecula,California,0,5,33.4946353,-117.147366
+"August 28, 2016",Lubbock,Texas,6,0,33.5778631,-101.8551664
+"August 28, 2016",Bronx,New York,4,0,40.8570333,-73.8366961
+"August 28, 2016",Saint Louis,Missouri,2,2,38.6272733,-90.1978888
+"August 28, 2016",Dadeville,Alabama,5,0,32.831238,-85.7635691
+"August 27, 2016",Miami,Florida,4,2,25.7742658,-80.1936588
+"August 27, 2016",Bessemer (Brighton),Alabama,6,1,33.442307,-86.9338039
+"August 25, 2016",Bridgeton,New Jersey,5,0,39.427337,-75.2340767
+"August 21, 2016",Bridgeport,Connecticut,13,0,41.1670412,-73.2048347
+"August 21, 2016",Boston,Massachusetts,4,0,42.3604823,-71.0595677
+"August 20, 2016",Tacoma,Washington,5,0,47.2495798,-122.4398745
+"August 20, 2016",Hamden,Connecticut,4,0,41.3959287,-72.8968715
+"August 20, 2016",Citronelle,Alabama,0,5,31.069346,-88.315283
+"August 18, 2016",Waterbury,Connecticut,4,0,41.5581525,-73.0514965
+"August 17, 2016",Oakland,California,4,0,37.8044557,-122.2713562
+"August 14, 2016",Minneapolis,Minnesota,5,0,44.9772995,-93.2654691
+"August 14, 2016",Norfolk,Virginia,4,0,36.8889933,-76.2481623
+"August 13, 2016",Milwaukee,Wisconsin,2,2,43.0349931,-87.9224969
+"August 13, 2016",Los Angeles,California,4,0,34.054935,-118.2444759
+"August 13, 2016",Richmond Hill,New York,4,0,42.7400674,-75.8901953
+"August 13, 2016",Joplin,Missouri,4,0,37.0842271,-94.5132809
+"August 12, 2016",Jacksonville,Florida,3,1,30.3321838,-81.6556509
+"August 12, 2016",Dallas,Texas,3,1,32.7762719,-96.7968558
+"August 11, 2016",Philadelphia,Pennsylvania,4,0,39.9523993,-75.1635898
+"August 10, 2016",Evanston,Illinois,4,0,42.0447388,-87.6930458
+"August 10, 2016",Sacramento,California,3,1,38.5815719,-121.4943995
+"August 8, 2016",Albuquerque,New Mexico,2,2,35.0841034,-106.650985
+"August 8, 2016",Jacksonville,Florida,7,0,30.3321838,-81.6556509
+"August 7, 2016",Los Angeles,California,3,1,34.054935,-118.2444759
+"August 7, 2016",Arvada,Colorado,2,2,39.8211225,-105.2207429
+"August 7, 2016",Vicksburg,Mississippi,3,1,32.3528418,-90.8777341
+"August 7, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"August 6, 2016",Reading (Sinking Spring),Pennsylvania,0,5,40.33565,-75.92687
+"August 5, 2016",Pontiac,Michigan,3,1,42.6389216,-83.2910467
+"August 5, 2016",Perris,California,2,2,33.7825194,-117.2286477
+"August 4, 2016",Memphis,Tennessee,4,0,35.1490215,-90.0516284
+"August 3, 2016",Decatur,Georgia,3,1,33.7737582,-84.2960689
+"August 2, 2016",Hollywood (West Park),Florida,4,0,26.0121723,-80.1676493
+"August 1, 2016",Evansville,Indiana,4,0,37.9747645,-87.5558482
+"July 31, 2016",Miami,Florida,1,3,25.7742658,-80.1936588
+"July 31, 2016",Austin,Texas,4,1,30.2711286,-97.7436994
+"July 30, 2016",Saint Louis,Missouri,5,0,38.6272733,-90.1978888
+"July 30, 2016",Townsend (Eulonia),Georgia,5,0,31.539578,-81.4504549
+"July 30, 2016",Mukilteo,Washington,1,3,47.9474034,-122.3036991
+"July 29, 2016",Athens,Georgia,7,0,33.9550905,-83.3881867
+"July 28, 2016",Elmira,New York,5,0,42.0897965,-76.8077337
+"July 28, 2016",Baltimore,Maryland,4,0,39.2908816,-76.6107589
+"July 28, 2016",Chicago,Illinois,2,2,41.8755546,-87.6244211
+"July 25, 2016",Fort Myers,Florida,19,2,26.640628,-81.8723083
+"July 24, 2016",Hamilton,Ohio,7,1,39.2085354,-84.5501873
+"July 23, 2016",North Charleston,South Carolina,4,0,32.8546197,-79.9748102
+"July 23, 2016",Cincinnati,Ohio,2,2,39.1014537,-84.5124601
+"July 23, 2016",Brooklyn,New York,4,0,40.6501038,-73.9495822
+"July 23, 2016",Bastrop,Texas,1,4,30.1104947,-97.31527
+"July 22, 2016",Kankakee,Illinois,5,0,41.1200325,-87.861153
+"July 21, 2016",Chicago,Illinois,5,0,41.8755546,-87.6244211
+"July 20, 2016",Fresno,California,4,0,36.7394421,-119.7848306
+"July 19, 2016",West Memphis,Arkansas,4,0,35.1464797,-90.1845387
+"July 17, 2016",Baton Rouge,Louisiana,3,4,30.4507462,-91.1545509
+"July 17, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"July 17, 2016",Detroit,Michigan,4,0,42.3486635,-83.0567374
+"July 16, 2016",Dallas,Texas,5,0,32.7762719,-96.7968558
+"July 16, 2016",Cleveland,Ohio,5,0,41.5051613,-81.6934445
+"July 16, 2016",San Bernardino,California,4,0,34.1083449,-117.2897651
+"July 16, 2016",Bakersfield,California,14,1,35.3738712,-119.0194638
+"July 16, 2016",Clarksville,Tennessee,6,0,36.5277607,-87.3588702
+"July 15, 2016",Woodland,Washington,1,3,45.9109715,-122.7408325
+"July 14, 2016",Crosby,Texas,1,3,29.9118885,-95.0621511
+"July 14, 2016",Oakland,California,4,0,37.8044557,-122.2713562
+"July 14, 2016",Akron,Ohio,3,1,41.083064,-81.5184849
+"July 13, 2016",Warner Robins,Georgia,5,0,32.598313,-83.6256769
+"July 13, 2016",Saint Louis,Missouri,2,2,38.6272733,-90.1978888
+"July 11, 2016",Baltimore,Maryland,5,0,39.2908816,-76.6107589
+"July 11, 2016",Saint Joseph,Michigan,2,3,41.9031963,-85.5356725
+"July 11, 2016",Jackson,Michigan,4,0,42.2465036,-84.4016962
+"July 11, 2016",Washington,District of Columbia,4,0,38.8949549,-77.0366455
+"July 7, 2016",Bristol,Tennessee,4,1,36.5945034,-82.1885211
+"July 7, 2016",Dallas,Texas,9,5,32.7762719,-96.7968558
+"July 7, 2016",Baton Rouge,Louisiana,4,0,30.4507462,-91.1545509
+"July 5, 2016",Los Angeles,California,4,0,34.054935,-118.2444759
+"July 4, 2016",Pittsburgh,Pennsylvania,4,0,40.4416941,-79.990086
+"July 4, 2016",Chicago (Englewood),Illinois,4,0,41.7790752,-87.6684426
+"July 4, 2016",Brooklyn,New York,7,0,40.6501038,-73.9495822
+"July 4, 2016",Cleveland,Ohio,4,0,41.5051613,-81.6934445
+"July 4, 2016",Houston,Texas,2,3,29.7589382,-95.3676973
+"July 4, 2016",Phoenix,Arizona,6,2,33.4485866,-112.0773455
+"July 3, 2016",Monroe,Louisiana,3,2,32.5093109,-92.1193011
+"July 3, 2016",Chattanooga,Tennessee,4,0,35.0456297,-85.30968
+"June 30, 2016",Chicago,Illinois,4,1,41.8755546,-87.6244211
+"June 29, 2016",Las Vegas,Nevada,0,5,36.1662859,-115.1492249
+"June 28, 2016",Los Angeles (county),California,3,1,34.3155072,-118.2096813
+"June 28, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"June 27, 2016",Woodburn,Oregon,1,3,45.143731,-122.8553724
+"June 26, 2016",Atlanta,Georgia,4,1,33.7490987,-84.3901848
+"June 26, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"June 26, 2016",Corpus Christi,Texas,4,0,27.8002542,-97.3955743
+"June 26, 2016",Marlboro (county),South Carolina,4,0,34.5810346,-79.6742032
+"June 26, 2016",Charlotte,North Carolina,5,0,35.2270869,-80.8431267
+"June 25, 2016",Fort Worth,Texas,5,2,32.753177,-97.3327458
+"June 25, 2016",Norfolk,Virginia,4,0,36.8889933,-76.2481623
+"June 25, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"June 24, 2016",Kansas City,Kansas,4,0,39.1146799,-94.7495245
+"June 24, 2016",Hartford,Connecticut,5,0,41.7645491,-72.6908672
+"June 24, 2016",District Heights,Maryland,2,3,38.8576128,-76.889417
+"June 22, 2016",Olympia,Washington,1,3,47.0450197,-122.8948724
+"June 22, 2016",Dekalb (county),Georgia,4,1,33.7575613,-84.2186507
+"June 22, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"June 21, 2016",Willingboro,New Jersey,4,0,40.0278894,-74.8690541
+"June 21, 2016",Louisville,Kentucky,2,2,38.2542376,-85.7594069
+"June 19, 2016",Roanoke,Virginia,4,0,37.270973,-79.9414312
+"June 18, 2016",Exmore,Virginia,3,1,37.5318069,-75.8229913
+"June 18, 2016",Waycross,Georgia,2,2,31.2135511,-82.3540177
+"June 18, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"June 14, 2016",Wilmington,Delaware,4,0,39.7459468,-75.5465889
+"June 14, 2016",Oakland,California,3,1,37.8044557,-122.2713562
+"June 13, 2016",Fresno,California,4,0,36.7394421,-119.7848306
+"June 13, 2016",Brooklyn,New York,5,0,40.6501038,-73.9495822
+"June 13, 2016",Chicago,Illinois,5,0,41.8755546,-87.6244211
+"June 12, 2016",Orlando,Florida,53,50,28.5421175,-81.3790461
+"June 11, 2016",Roswell,New Mexico,0,5,33.3943282,-104.5229517
+"June 11, 2016",Webster,Minnesota,4,0,44.529686,-93.3527229
+"June 11, 2016",Stockton,California,3,1,37.9577016,-121.2907795
+"June 11, 2016",Panorama City,California,2,3,34.2242902,-118.4453744
+"June 11, 2016",Charlotte,North Carolina,3,1,35.2270869,-80.8431267
+"June 9, 2016",Fort Walton Beach,Florida,4,0,30.4057552,-86.6188419
+"June 8, 2016",Washington,District of Columbia,4,0,38.8949549,-77.0366455
+"June 8, 2016",Boston,Massachusetts,3,1,42.3604823,-71.0595677
+"June 6, 2016",Visalia,California,4,0,36.3302284,-119.2920584
+"June 5, 2016",Minneapolis,Minnesota,4,0,44.9772995,-93.2654691
+"June 5, 2016",Cape Coral,Florida,3,3,26.6058996,-81.9807339
+"June 5, 2016",Brooklyn,New York,4,0,40.6501038,-73.9495822
+"June 5, 2016",Phoenix,Arizona,5,2,33.4485866,-112.0773455
+"June 4, 2016",Denver,Colorado,1,3,39.7391536,-104.9847033
+"May 31, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"May 31, 2016",Fort Wayne,Indiana,4,0,41.0799898,-85.1386014
+"May 30, 2016",Baltimore,Maryland,5,0,39.2908816,-76.6107589
+"May 30, 2016",Sacramento,California,5,0,38.5815719,-121.4943995
+"May 29, 2016",Trenton,New Jersey,6,0,40.2170575,-74.7429462
+"May 29, 2016",Indianapolis,Indiana,4,0,39.7683331,-86.1583501
+"May 29, 2016",Las Vegas,Nevada,4,0,36.1662859,-115.1492249
+"May 29, 2016",Houston,Texas,6,2,29.7589382,-95.3676973
+"May 23, 2016",Newark,New Jersey,5,0,40.735657,-74.1723666
+"May 22, 2016",New Orleans,Louisiana,4,0,29.9499323,-90.0701155
+"May 22, 2016",Stockton,California,3,1,37.9577016,-121.2907795
+"May 22, 2016",Nashville,Tennessee,4,0,36.1622296,-86.774353
+"May 21, 2016",Jackson,Georgia,3,1,34.1282559,-83.5753385
+"May 18, 2016",Indianapolis,Indiana,4,0,39.7683331,-86.1583501
+"May 17, 2016",Ravenel,South Carolina,1,3,32.7632321,-80.2500985
+"May 15, 2016",Evansville,Indiana,4,0,37.9747645,-87.5558482
+"May 15, 2016",Moultrie,Georgia,0,5,31.1811523,-83.7878808
+"May 14, 2016",Atlanta,Georgia,5,0,33.7490987,-84.3901848
+"May 14, 2016",Charleston,West Virginia,3,1,38.3505995,-81.6332811
+"May 11, 2016",Birmingham,Alabama,4,1,33.5206824,-86.8024325
+"May 11, 2016",Chicago,Illinois,5,0,41.8755546,-87.6244211
+"May 8, 2016",Austin,Texas,3,1,30.2711286,-97.7436994
+"May 6, 2016",Detroit,Michigan,4,1,42.3486635,-83.0567374
+"May 6, 2016",Montgomery,Alabama,3,1,32.3669656,-86.3006484
+"May 6, 2016",Bethesda,Maryland,3,3,38.9848265,-77.0946458
+"May 5, 2016",Shreveport,Louisiana,6,2,32.5221828,-93.7651943
+"May 5, 2016",Miami,Florida,3,1,25.7742658,-80.1936588
+"May 4, 2016",Minneapolis,Minnesota,7,1,44.9772995,-93.2654691
+"May 1, 2016",Murfreesboro,Tennessee,5,0,35.845999,-86.3920451
+"April 29, 2016",Saint Louis (Ferguson),Missouri,4,0,38.62727,-90.19789
+"April 29, 2016",Oakland,California,5,0,37.8044557,-122.2713562
+"April 27, 2016",Baton Rouge,Louisiana,2,2,30.4507462,-91.1545509
+"April 27, 2016",Kilmichael,Mississippi,1,3,33.4434573,-89.571743
+"April 26, 2016",District Heights (Forestville),Maryland,4,1,38.85761,-76.88942
+"April 25, 2016",Nashville,Tennessee,4,0,36.1622296,-86.774353
+"April 25, 2016",Miami,Florida,5,0,25.7742658,-80.1936588
+"April 24, 2016",Halifax,Virginia,5,0,36.747244,-78.9425633
+"April 24, 2016",Chicago (Englewood),Illinois,3,2,41.7790752,-87.6684426
+"April 24, 2016",Denver,Colorado,4,0,39.7391536,-104.9847033
+"April 23, 2016",Las Vegas,Nevada,3,1,36.1662859,-115.1492249
+"April 23, 2016",Auburn,Alabama,1,3,32.713387,-85.4650789
+"April 23, 2016",Topeka,Kansas,4,1,39.049011,-95.6775559
+"April 23, 2016",New York (Manhattan),New York,4,0,40.7484273,-73.9856941
+"April 22, 2016",Piketon,Ohio,0,8,39.0681252,-83.0143442
+"April 22, 2016",Appling,Georgia,0,6,31.7771435,-82.2996273
+"April 21, 2016",Baltimore,Maryland,4,0,39.2908816,-76.6107589
+"April 19, 2016",Blountsville,Alabama,4,1,34.0814863,-86.5911026
+"April 19, 2016",Chicago,Illinois,3,1,41.8755546,-87.6244211
+"April 19, 2016",Chicago,Illinois,4,1,41.8755546,-87.6244211
+"April 18, 2016",Long Beach,California,3,1,33.7853894,-118.1580492
+"April 17, 2016",Philadelphia,Pennsylvania,1,3,39.9523993,-75.1635898
+"April 17, 2016",Pelzer,South Carolina,3,1,34.6423372,-82.4559597
+"April 17, 2016",Edinburg,Texas,6,1,26.3013982,-98.16245
+"April 16, 2016",Detroit,Michigan,4,1,42.3486635,-83.0567374
+"April 16, 2016",Orlando,Florida,4,2,28.5421175,-81.3790461
+"April 16, 2016",Enterprise,Alabama,4,0,31.3151708,-85.855216
+"April 14, 2016",Orange,New Jersey,3,1,40.7706562,-74.2326462
+"April 10, 2016",Milwaukee,Wisconsin,3,1,43.0349931,-87.9224969
+"April 10, 2016",Los Angeles,California,4,0,34.054935,-118.2444759
+"April 9, 2016",Memphis,Tennessee,4,0,35.1490215,-90.0516284
+"April 9, 2016",Anniston,Alabama,4,0,33.6594422,-85.8316325
+"April 9, 2016",Albuquerque,New Mexico,4,0,35.0841034,-106.650985
+"April 7, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"March 31, 2016",Chicago (Englewood),Illinois,4,0,41.7790752,-87.6684426
+"March 25, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"March 25, 2016",Denver,Colorado,4,0,39.7391536,-104.9847033
+"March 21, 2016",Chicago,Illinois,4,0,41.8755546,-87.6244211
+"March 19, 2016",Plantation,Florida,4,1,26.1265258,-80.2578611
+"March 19, 2016",Wetumpka,Alabama,2,2,32.5437448,-86.2119126
+"March 15, 2016",Atlanta,Georgia,5,0,33.7490987,-84.3901848
+"March 13, 2016",Fort Myers,Florida,4,0,26.640628,-81.8723083
+"March 12, 2016",Portland,Oregon,4,0,45.5202471,-122.6741948
+"March 12, 2016",Oakland,California,4,0,37.8044557,-122.2713562
+"March 11, 2016",Detroit,Michigan,2,2,42.3486635,-83.0567374
+"March 11, 2016",Trenton,New Jersey,5,0,40.2170575,-74.7429462
+"March 9, 2016",Pittsburgh (Wilkinsburg),Pennsylvania,3,5,40.4667355,-79.92144
+"March 8, 2016",San Antonio,Texas,3,2,29.4246002,-98.4951404
+"March 7, 2016",Lafayette,Louisiana,4,0,30.2240897,-92.0198426
+"March 7, 2016",Kansas City,Kansas,0,5,39.1146799,-94.7495245
+"March 6, 2016",Chelsea,Massachusetts,6,1,42.3917638,-71.0328283
+"March 6, 2016",Roswell,Georgia,4,0,34.02332,-84.3600219
+"March 6, 2016",Compton,California,8,1,33.894927,-118.2266239
+"March 5, 2016",Wichita,Kansas,4,0,37.6922361,-97.3375447
+"March 4, 2016",Columbus,Ohio,3,1,39.9622601,-83.0007064
+"February 28, 2016",Detroit,Michigan,5,0,42.3486635,-83.0567374
+"February 28, 2016",Riverside (Jurupa Valley),California,3,1,33.8769213,-117.2707266
+"February 27, 2016",Woodbridge (Lake Ridge),Virginia,2,2,38.65817,-77.2497
+"February 26, 2016",Belfair,Washington,0,5,47.5023158,-122.7773647
+"February 25, 2016",Hesston,Kansas,14,4,38.1383437,-97.4314266
+"February 23, 2016",Glendale,Arizona,0,5,33.5389854,-112.1858156
+"February 23, 2016",Daytona Beach,Florida,4,0,29.2108147,-81.022833
+"February 21, 2016",Hazelwood,Missouri,3,1,38.7714396,-90.3709488
+"February 21, 2016",Houston,Texas,5,0,29.7589382,-95.3676973
+"February 20, 2016",Tampa,Florida,3,1,27.9477595,-82.4584439
+"February 20, 2016",Kalamazoo,Michigan,2,6,42.291707,-85.5872285
+"February 20, 2016",Bessemer,Alabama,3,1,33.359265,-86.873191
+"February 20, 2016",Orlando,Florida,4,0,28.5421175,-81.3790461
+"February 20, 2016",Iuka,Mississippi,3,2,34.8117565,-88.1900414
+"February 19, 2016",Edgerton,Missouri,0,4,39.5049976,-94.6332895
+"February 19, 2016",Vallejo,California,3,1,38.1040864,-122.2566366
+"February 14, 2016",Houston,Texas,3,1,29.7589382,-95.3676973
+"February 14, 2016",Eutaw (Union),Alabama,5,0,32.84068,-87.88751
+"February 13, 2016",Marrero,Louisiana,4,0,29.8993723,-90.1003505
+"February 7, 2016",Pass Christian,Mississippi,4,2,30.3157527,-89.2475429
+"February 7, 2016",Orlando,Florida,10,2,28.5421175,-81.3790461
+"February 7, 2016",Rochester,New York,7,1,43.157285,-77.6152139
+"February 7, 2016",Chicago (Englewood),Illinois,4,0,41.7790752,-87.6684426
+"February 6, 2016",Los Angeles,California,3,1,34.054935,-118.2444759
+"February 6, 2016",Apopka,Florida,4,0,28.7414145,-81.5344293
+"February 6, 2016",Tampa,Florida,6,2,27.9477595,-82.4584439
+"February 3, 2016",Washington,District of Columbia,4,0,38.8949549,-77.0366455
+"January 30, 2016",Glendale,Arizona,5,3,33.5389854,-112.1858156
+"January 27, 2016",Chesapeake,Virginia,0,6,36.7183708,-76.2466797
+"January 26, 2016",Seattle,Washington,3,2,47.6038321,-122.3300623
+"January 25, 2016",Perris,California,4,1,33.7825194,-117.2286477
+"January 23, 2016",Los Angeles,California,2,2,34.054935,-118.2444759
+"January 17, 2016",Ware Neck (Gloucester Courthouse),Virginia,3,1,37.40264,-76.45856
+"January 11, 2016",Wilmington,Delaware,4,1,39.7459468,-75.5465889
+"January 8, 2016",Washington,District of Columbia,4,0,38.8949549,-77.0366455
+"January 8, 2016",Chicago,Illinois,4,1,41.8755546,-87.6244211
+"January 7, 2016",Memphis,Tennessee,3,1,35.1490215,-90.0516284
+"January 6, 2016",Lakeland,Florida,1,3,28.0394654,-81.9498041

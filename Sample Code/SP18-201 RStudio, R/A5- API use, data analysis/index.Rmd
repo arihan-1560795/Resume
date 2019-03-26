@@ -1,0 +1,150 @@
+---
+title: "index.Rmd"
+output: html_document
+---
+<!--Setup code. Contains zip-code which may be modified to get different results -->
+```{r, echo=FALSE, include=FALSE}
+#This bit of code installs the DPLYR, JSTONLITE, and HTTR libraries necessary
+#for the code in this file to run. This page gives information on congressional 
+#representatives using the Sunlight Foundation API. 
+
+#By default, it gives information for the 98105 zip-code; to view information for
+#your zipcode, change the '98105' to '[YOUR ZIPCODE]'
+#For the code to work correctly, please do not change any other aspects of this file.
+
+library(dplyr)
+library(jsonlite)
+library(httr)
+library(knitr)
+library(stringr)
+library(httpuv)
+
+#The variable zip.code stores your zip code
+zip.code <- '98105'
+
+#"query.parameters" holds is a list of the parameters passed to the Sunlight API
+query.params <- list(zip=zip.code)
+```
+
+<!--Prints information about zip-code (State and #congressional districts in it) -->
+```{r, echo=FALSE, include=FALSE}
+#The following code outputs the congressional district that corresponds to your 
+#zip-code. It outputs a brief sentence that states your zip-code and 
+#congressional district.
+
+#Constructs a search query using YOUR api key. The base url is stored in dist.url
+#Locate finds congressional districts for a given zip-code
+dist.url <- 'https://congress.api.sunlightfoundation.com/districts/locate'
+dist.response <- GET(dist.url, query = query.params)
+dist.body <- content(dist.response, "text")
+
+#Request data using your search query
+dist.results <- fromJSON(dist.body)
+
+#Flattens dataframe into seperate columns
+dist.flattened <- flatten(dist.results$results)
+```
+`r paste("The zip-code **", zip.code, "** is located in the state of **", dist.flattened$state, "** and has **", dist.flattened$district, "** congressional districts in it.", sep = "")`
+
+<!--Prints table with information about representatives from the given zip-code -->
+```{r, echo=FALSE, include=FALSE}
+#The following chunk of code queries the /legislators/locate API endpoint to identify 
+#the legislators in your zip-code, and then prints a table containing their first name, last name,
+#title, party, chamber, phone-number, website, and twitter link.
+legi.url <- 'https://congress.api.sunlightfoundation.com/legislators/locate'
+legi.response <- GET(legi.url, query = query.params)
+legi.body <- content(legi.response, "text")
+legi.results <- fromJSON(legi.body)
+legi.flattened.raw <- flatten(legi.results$results)
+
+#Selects the desired columns from the flattened dataframe object
+legi.flattened <- legi.flattened.raw %>% 
+  select(first_name, last_name, title, party, chamber, phone, website, twitter_id)
+
+#converts websites and twitter handles into clickable links
+legi.flattened <- legi.flattened %>% 
+  mutate(website = paste('[link](', website, ')', sep=""))
+legi.flattened <- legi.flattened %>% 
+  mutate(twitter_id = paste('[link](https://twitter.com/', twitter_id, ')', sep=""))
+
+#Formats the column names to remove any underscores and have each wor'ds first letter capitalized 
+legi.flattened <- rename(legi.flattened, twitter = twitter_id)
+colnames(legi.flattened) <- gsub("_", " ", colnames(legi.flattened))
+colnames(legi.flattened) <- str_to_title(colnames(legi.flattened))
+```
+The following people are representatives for this zip-code.
+`r kable(legi.flattened)`
+
+<!--Prints bar graph with the #committees each representative from the given zip-code is on -->
+```{r, echo=FALSE, include=FALSE}
+#The following code creates a horizontal bar graph on the number of committees representatives in 
+#the given zip-code are serving in
+
+#Function returns information on all the committees a representative with the given ID is serving in
+CommitteesServed <- function(id){
+  comm.url <- 'https://congress.api.sunlightfoundation.com/committees?'
+  comm.query.params <- list(member_ids = id)
+  comm.response <- GET(comm.url, query = comm.query.params)
+  comm.body <- content(comm.response, "text")
+  return(as.data.frame(fromJSON(comm.body)))
+}
+
+#Creates a list of dataframes, where each dataframe is information on the committees a representative
+#is serving in. Each dataframes location correlates to the location of the representative's name in
+#the variable "legi.flattened.raw"
+#is involved in. The position of each dataframe corresponds to the name values in the 
+comm.by.mem <- lapply(legi.flattened.raw$bioguide_id, function(x) CommitteesServed(x))
+
+#Creates vectors with names and number of committees in
+names <- paste(legi.flattened.raw$first_name, " ", legi.flattened.raw$last_name, sep = "")
+no.comm <- sapply(comm.by.mem, NROW)
+```
+```{r, echo =  FALSE, warning = FALSE}
+par(mar=c(4,7,2,1))
+barplot(no.comm, main="Committees Served on by Each Rep", horiz=TRUE, names.arg=names, xlab = "# Committees", border=par(las=1))
+```
+
+<!-- Prints paragraph on indepth information on the committee a representative is on -->
+```{r, echo=FALSE, include=FALSE}
+#The following chunk of code provides an in-depth analysis on the first committee that is 
+#not sub-committee for the first legislator for which this holds true. 
+
+#The following snippet of code loops through all the legislators until it finds a committee
+#they are in that is not a sub-committee.
+i = 0
+comm = NULL
+while(is.null(comm)){
+  i = i + 1
+  comm <- comm.by.mem[[i]] %>% filter(results.subcommittee == FALSE) %>%  filter(row_number()==1)
+}
+#The following snippet of code creates a DataFrame of the legislators in the given non sub-commitee
+#using the SunlightFoundation's congress API
+p.comm.url <- 'https://congress.api.sunlightfoundation.com/committees?'
+p.comm.query.params <- list(committee_id = comm$results.committee_id, fields = 'members')
+p.comm.response <- GET(p.comm.url, query = p.comm.query.params)
+body <- fromJSON(content(p.comm.response,"text"))$results$members[[1]] %>% flatten()
+
+#Finds who is the chair of the committee (first and last name)
+chair.df <- body %>% filter(title == 'Chair') %>% select(legislator.first_name, legislator.last_name)
+chair.name <- paste(chair.df$legislator.first_name, " ", chair.df$legislator.last_name, sep = "")
+
+#Finds many people are on the committee
+p.n.comm <- nrow(body)
+
+#Finds if the given representative is on the majority or minority side of the committee
+id <- (legi.flattened.raw %>% filter(row_number()==i))$bioguide_id
+side <- body %>% 
+  filter(legislator.bioguide_id == id) %>% 
+  select(side)
+
+#What is the gender distribution on the committee (%M, %F)
+m.n.comm <- round(nrow(filter(body, legislator.gender == 'M')) * 100 / nrow(body), digits = 1)
+f.n.comm <- round(nrow(filter(body, legislator.gender == 'F')) * 100 / nrow(body), digits = 1)
+```
+`r paste0("Our representative, **", names[i], "** is a part of the **", comm$results.name, "**, and their party is on the ", side, " side.")`
+
+`r paste0("This committee is responsible forlegislative oversight on the federal budget, including its bills and resolutions.")`
+
+`r paste0(comm$results.name, " is chaired by **", chair.name, "**.")`
+
+`r paste0(comm$results.name, " has **", p.n.comm, "** people on the committee, of which **", m.n.comm, "%** are male and **", f.n.comm, "% **are female.")`

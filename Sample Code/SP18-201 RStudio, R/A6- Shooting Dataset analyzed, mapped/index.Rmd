@@ -1,0 +1,123 @@
+---
+title: "index.Rmd"
+output: html_document
+---
+
+<!-- Setup Code. Installs required libaries and reads in dataframe -->
+```{r, echo=FALSE, include=FALSE}
+library(dplyr)
+library(gdata)
+library(plotly)
+library(knitr)
+
+setwd("~/GitHub/a6-mapping-shootings-arihan-1560795")
+shootings.df <- read.csv('data/shootings-2016.csv', stringsAsFactors = FALSE)
+```
+
+<!-- Prints summary information from dataset -->
+```{r, echo=FALSE, include=FALSE}
+#The following chunk of code computes high-level information from the dataset
+#Stores the number of shootings we have information about
+total.count <- nrow(shootings.df)
+
+#Stores the number of people killed in total
+total.dead <- sum(shootings.df$killed)
+
+#Top 5 'affected' cities by number of incidents
+top.5.count <- tail(names(sort(table(shootings.df$city))), 5)
+
+#Top 5 cities by number of people killed
+city.most.killings <- (aggregate(shootings.df$killed, by=list(Category = shootings.df$city), FUN=sum)) %>% arrange(desc(x))
+top.5.dead <- head(city.most.killings, 5)
+colnames(top.5.dead) <- c("City", "Total People Killed")
+```
+
+`r paste0("**Total number of shootings: **", total.count)`
+
+`r paste0("**Total lives lost in shootings:** ", total.dead)`
+
+`r paste0("**Most affected cities (by number of shootouts): **", (paste(shQuote(top.5.count, type="cmd"), collapse=", ")))`
+
+`r paste0("**Table of most affected cities by sum of people dead in shootouts**")`
+
+`r kable(top.5.dead)`
+
+<!--Summary Table showing sum of people killed over shootouts by state-->
+```{r, echo=FALSE, include=FALSE}
+sum.state <- (aggregate(shootings.df$killed, by=list(Category = shootings.df$state), FUN=sum))
+colnames(sum.state) <- c("State", "Total People Killed")
+```
+`r kable(sum.state) `
+
+<!-- Description of a particular incident -->
+```{r, echo=FALSE, include=FALSE}
+#Prints a short description about the worst incident (most number of people killed in one incident).
+incident.worst <- shootings.df %>% filter(killed == max(killed))
+about.worst <- paste0("On ", incident.worst$date, ", ", incident.worst$killed, " people were killed and ", 
+       incident.worst$injured, " others injured in a shootout at a gay nightclub in ", incident.worst$city, 
+       ", ", incident.worst$state, ". The gunman, Omar Mateen, 29, of Fort Pierce, Florida allegiance to ISIS
+       in a phonecall he made to 911 during the shootout. Omar was interviewed by the FBI in 2013 but was
+       not found to be a threat, and his wife claims his actions were a result of being bipolar. 
+       After a 3 hour standoff, the police crashed into the building with an armored vehicle
+       and stun grenades and killed Omar.")
+```
+`r about.worst`
+
+`r paste0("Source: [CNN: Orlando shooting: 49 killed, shooter pledged ISIS allegiance](http://www.cnn.com/2016/06/12/us/orlando-nightclub-shooting/)")`
+
+<!--Prints an Interactive Map using information in the provided dataset-->
+```{r, echo=FALSE, include=FALSE}
+#The following code prints an interactive map of the US with circles representing shootouts in the form of 
+#circles. The size of the circles are proptional to the number of people injured and killed in that incident. #Hovering over each circle will overlay additional information about the incident
+g <- list(
+  scope = 'usa',
+  projection = list(type = 'albers usa'),
+  showland = TRUE,
+  landcolor = toRGB("gray95"),
+  subunitcolor = toRGB("gray85"),
+  countrycolor = toRGB("gray85"),
+  countrywidth = 0.5,
+  subunitwidth = 0.5
+)
+
+p <- plot_geo(shootings.df, lat = ~lat, lon = ~lng) %>%
+  add_markers(
+    text = ~paste0(city, ", ", state, "<br />", 
+                   date, "<br />", 
+                   paste("Killed:", killed), "<br />", 
+                   paste("Injured:", injured)), 
+    symbol = I("circle"), 
+    hoverinfo = "text", 
+    color = "rgb(256, 0, 0)", 
+    size = I(as.numeric((shootings.df$killed + shootings.df$injured) * 10))
+  ) %>%
+  layout(
+    title = 'Shootouts across the United States by incident<br />(Hover for details)', geo = g
+  )
+```
+`r p`
+
+<!--Prints an interactive scatterplot-->
+```{r, echo=FALSE, include=FALSE}
+#The following code prints an interactive scatterplot arranging incidents by when they took place
+shootings.df$date <- as.Date(shootings.df$date, format="%B %d, %Y")
+shootings.df <- shootings.df %>% mutate(killed + injured)
+
+p1 <- plot_ly(type = 'scatter',
+  shootings.df, 
+  x = ~date, 
+  y = ~(killed + injured),
+  color = 'rgb(256,0,0)', 
+  size = ~I((killed + injured) * 10),
+      text = ~paste0(city, ", ", state, "<br />", 
+                     date, "<br />", 
+                     paste("Killed:", killed), "<br />", 
+                     paste("Injured:", injured)), 
+      hoverinfo = "text"
+    ) %>% 
+  layout(title = "Time vs. Shootouts in the US<br />(Hover for details)", 
+         xaxis = list(title = "Date"), 
+         yaxis = list(title = "Casualties (People killed + injured)")
+         )
+```
+`r p1`
