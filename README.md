@@ -12,7 +12,8 @@ Arihan is a Senior Informatics student with a concentration in Data Science. He'
 
 ## Projects
 
-- **Python Data Modelling (ML)** (_Python_)
+- **Python Data Modelling (ML)** (_Python_) 
+
 [Link to GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/WI19-371)
 Clean, analyze, model, visualize breast cancer, review, housing, email, and government assistance datasets. Implement, use preset, and evaluate machine learning models using metrics like accuracy, confusion matrixes, ROC curves, decision boundary plots, and more. 
 
