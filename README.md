@@ -25,16 +25,12 @@ App takes user user location, reason for visit. Filters dataset to shows, plots 
 - **AirBNB Property Finder** (_Tableau, pSQL, AWS RDS_) <br/>
 [Link to Dashboard Screenshot](https://github.com/arihan-1560795/INFO430--AirBNB/blob/master/6-%20Visualization/Reporting%20Dashboard%203.PNG?raw=true) | [Link to GitHub](https://github.com/arihan-1560795/INFO430--AirBNB) <br/>
 Project lead on pSQL database development on Amazon's Relational Database Service. The tool provides insights into AirBNB data and helps people filter through it to find properties. The DB back end was built to be as efficient as possible; and the dashboard shows how various features are related.
-<img src="Project Screenshots/AirBNB Property.PNG" height="360">
+<img src="Project Screenshots/AirBNB Property.PNG" height="240">
 
 - **Transportation Data Pipeline** (_SQL, Excel, Shiny_) <br/>
 [Link to Screenshots](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/tree/master/Screenshots) | [Link to GitHub](https://github.com/arihan-1560795/CEE412-Transportation-Data-Management-Project) <br/>
 Data Pipeline for managing, storing, analyzing, and visualizing transportation data for bicycles. Involved importing data into created SQL tables and querying, visualizing them through RStudio.
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/1-Landing.png" height="360">
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/2-%20Survey.png" height="360">
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/3-Survey.png" height="360">
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/5-Viz%20Static.png" height="360">
-<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/6-Viz%20Dynamic.png" height="360">
+<img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/1-Landing.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/2-%20Survey.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/3-Survey.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/5-Viz%20Static.png" height="240"> <img src="https://raw.githubusercontent.com/arihan-1560795/CEE412-Transportation-Data-Management-Project/master/Screenshots/6-Viz%20Dynamic.png" height="240">
 
 
 - **Bitcoin Infographic** (_Adobe Illustrator, Tableau, Excel_) <br/>
