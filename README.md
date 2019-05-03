@@ -6,9 +6,10 @@ Arihan is a Senior Informatics student with a concentration in Data Science. He'
 ## Programming Languages
 | Language | Classes | Projects | Last Used  | Classes Description                                                 |
 |----------|---------|----------|------------|---------------------------------------------------------------------|
-| Python   | 4       | 2        | March 2019 | Lots of data modelling, machine learning (2); Capstone; Intro to AI |
+| Python   | 4       | 2        | May 2019   | Lots of data modelling, machine learning (2); Capstone; Intro to AI |
 | RStudio  | 4       | 3        | March 2019 | Transportation Data Management; Data Modelling (2), Capstone        |
 | SQL      | 4       | 2        | March 2019 | SQL focused (2), Transportation Data Management, Web Dev w PHP      |
+| Tableau  | 2       | 2        | May 2019   | Interactive Data Visualization, Information Design                  |
 
 
 ## Projects
@@ -41,6 +42,12 @@ Technology used: (_SQL, Excel, Shiny_)
 
 - **Bitcoin Infographic** ([GitHub](https://github.com/arihan-1560795/Bitcoin-Infographic) | [Infographic](https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png))<br/>
 Technology used: (_Adobe Illustrator, Tableau, Excel_)
+    - Infographic about Bitcoin's lifecycle, facts, spatial distribution, and temporal variation. 
+    - Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
+<img src="https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png" height="360">
+
+- **Seattle Permit Dashboard** ([GitHub](https://github.com/arihan-1560795/Sample%20Code/SP-19%20474%20Python,%20D3,%20Tableau) | [Tableau Dashboard](https://public.tableau.com/profile/arihan.jalan#!/vizhome/SeattleBuildingPermits474A2Arihan/Dashboard1))<br/>
+Technology used: (_Tableau, Excel_)
     - Infographic about Bitcoin's lifecycle, facts, spatial distribution, and temporal variation. 
     - Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
 <img src="https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png" height="360">
