@@ -46,8 +46,14 @@ Technology used: (_Adobe Illustrator, Tableau, Excel_)
     - Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
 <img src="https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png" height="360">
 
-- **Seattle Permit Dashboard** ([GitHub](https://github.com/arihan-1560795/Sample%20Code/SP-19%20474%20Python,%20D3,%20Tableau) | [Tableau Dashboard](https://public.tableau.com/profile/arihan.jalan#!/vizhome/SeattleBuildingPermits474A2Arihan/Dashboard1))<br/>
+- **Seattle Permit Dashboard** ([GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/SP-19%20474%20Python%2C%20D3%2C%20Tableau/A1-%20Visualizing%20Antibiotics%20Data%20using%20Excel%2C%20Python) | [Tableau Dashboard](https://public.tableau.com/profile/arihan.jalan#!/vizhome/SeattleBuildingPermits474A2Arihan/Dashboard1))<br/>
 Technology used: (_Tableau, Excel_)
-    - Infographic about Bitcoin's lifecycle, facts, spatial distribution, and temporal variation. 
-    - Various displays modelled in Excel, Tableau, or within Adobe Illustrator itself. 
-<img src="https://raw.githubusercontent.com/arihan-1560795/Bitcoin-Infographic/master/Final-render.png" height="360">
+    - Interactive dashboard visualizing Seattle Permit data spatially and temporally.  
+    - Graph's dynamically change based on selected data in adjacent graphs.
+    - Tableau sets, binned geo-coordinates, filters, drill-down, dual-axis plots, used.
+<img src="https://raw.githubusercontent.com/arihan-1560795/Resume/master/Sample%20Code/SP-19%20474%20Python%2C%20D3%2C%20Tableau/A2-%20Interactive%20viz%20for%20Seattle%20Permit%20Data%20(Tableau)/Interactive%20Dashboard%20for%20Seattle%20Permit%20Data.PNG" height="360">
+
+- **Data Visualization (ongoing)** ([GitHub](https://github.com/arihan-1560795/Resume/tree/master/Sample%20Code/SP-19%20474%20Python%2C%20D3%2C%20Tableau)<br/>
+Technology used: (_Python, Tableau, Excel, D3_)
+<img src="https://raw.githubusercontent.com/arihan-1560795/Resume/master/Sample%20Code/SP-19%20474%20Python%2C%20D3%2C%20Tableau/A1-%20Visualizing%20Antibiotics%20Data%20using%20Excel%2C%20Python/Radar%20Plot%20(Python)/A1-%20MIC%20by%20Antibiotic.png" height="360">
+
